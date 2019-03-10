@@ -1,4 +1,4 @@
-mod core {
+pub mod core {
     /// this is the principal rendering interface
     pub trait IRenderer{
 
