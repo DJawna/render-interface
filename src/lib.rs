@@ -1,6 +1,6 @@
 mod core {
     /// this is the principal rendering interface
-    pub trait Renderer{
+    pub trait IRenderer{
 
         /// loads texture into the graphicssystem, and returns id of it
         fn create_texture(filename: &str) -> Result<u32,String>;
